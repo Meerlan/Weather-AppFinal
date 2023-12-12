@@ -9,7 +9,7 @@ npm start
 
 # deployment-link: https://65784346301b684a3ac6b269--endearing-banoffee-5b05a5.netlify.app/
 
-![Uploading image.png…]()
 
 
+![image](https://github.com/Meerlan/Weather-AppFinal/assets/75944814/b225bd84-9138-487c-81de-d29ebf676111)
 
