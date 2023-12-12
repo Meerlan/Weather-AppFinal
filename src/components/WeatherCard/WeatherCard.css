@@ -1,0 +1,82 @@
+.weather-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    color: white;
+    width: 300px;
+    height: 400px;
+}
+
+.background-slideshow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: fadeInOut 10s infinite;
+}
+
+.weather-card {
+    background-size: cover;
+}
+
+.temperature-section {
+}
+
+.temperature {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+.feels-like {
+    font-size: 16px;
+    color: white;
+}
+
+.details-section {
+}
+
+.wind, .pressure, .wind-direction, .season, .humidity, .sunrise, .sunset {
+    font-size: 14px;
+    color: white;
+}
+
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+        z-index: -1;
+    }
+    10%, 90% {
+        opacity: 1;
+        z-index: 0;
+    }
+}

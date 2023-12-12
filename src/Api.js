@@ -1,12 +1,15 @@
-export const geoApiOptions = {
-  method: "GET",
-  headers: {
-    "X-RapidAPI-Key": "7a520b669emsh3d1f3a4adfb920dp15233djsn95585d200b66",
-    "X-RapidAPI-Host": "wft-geo-db.p.rapidapi.com",
-  },
+export const NASA_API_KEY = "bq3KnZcmMkqkOktmYnIxwTrtCr4ro7Rb2njEWLVi";
+
+export const weatherApiOptions = {
+    method: "GET",
+    headers: {
+        "api_key": NASA_API_KEY,
+    },
 };
 
-export const GEO_API_URL = "https://wft-geo-db.p.rapidapi.com/v1/geo";
+export const INSIGHT_WEATHER_API_URL =
+    "https://mars.nasa.gov/rss/api/?feed=weather&category=insight_temperature&feedtype=json&ver=1.0";
 
-export const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5";
-export const WEATHER_API_KEY = "d14b1921014e713e8f2de51951520ff6";
+
+
+
